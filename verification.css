@@ -1,0 +1,41 @@
+
+body{
+    margin: 0;
+    font-family: Arial;
+    background-color: rgb(9, 49, 23);
+}
+.leftPart{
+    background-color: white;
+    color: rgb(15, 81, 57);
+    height: 700px;
+    width: 700px;
+    position: absolute;
+    left: 100px;
+    top: 60px;
+    border-radius: 25px;
+    border: rgb(10, 117, 60) solid 2px;
+    padding: 20px;
+    padding-left: 130px;
+    direction: flex;
+    flex-direction: column;
+    line-height: 30px;
+    align-content: center;
+    
+}
+.form{
+    width: 500px;
+    height: 600px;
+    color: rgb(9, 49, 23);
+    overflow-y: scroll;
+}
+form{
+    width: 460px;
+}
+.rightPart{
+    background-image:url("https://img.freepik.com/free-photo/sunny-meadow-landscape_1112-134.jpg");
+    background-size: cover;
+    height: 850px;
+    width: 850px;
+    position: absolute;
+    right: 0px;
+}
